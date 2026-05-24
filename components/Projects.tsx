@@ -36,6 +36,26 @@ const projects = [
         tech: ["PHP", "MySQL", "Google OAuth", "recaptcha."],
         features: ["User authentication", "Google OAuth integration", "PayPal Sandbox payments", "Inventory management"],
     },
+    {
+        id: 4,
+        title: "Project Name",
+        category: "Category",
+        description: "Add your 4th project description here.",
+        longDescription: "Add your 4th project detailed description here.",
+        image: "",
+        tech: ["Technology 1", "Technology 2"],
+        features: ["Feature 1", "Feature 2"],
+    },
+    {
+        id: 5,
+        title: "Project Name",
+        category: "Category",
+        description: "Add your 5th project description here.",
+        longDescription: "Add your 5th project detailed description here.",
+        image: "",
+        tech: ["Technology 1", "Technology 2"],
+        features: ["Feature 1", "Feature 2"],
+    },
 ];
 
 export default function Projects() {

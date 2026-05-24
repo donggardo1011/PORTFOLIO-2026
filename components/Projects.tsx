@@ -36,26 +36,6 @@ const projects = [
         tech: ["PHP", "MySQL", "Google OAuth", "recaptcha."],
         features: ["User authentication", "Google OAuth integration", "PayPal Sandbox payments", "Inventory management"],
     },
-    {
-        id: 4,
-        title: "Project Name",
-        category: "Category",
-        description: "Add your 4th project description here.",
-        longDescription: "Add your 4th project detailed description here.",
-        image: "",
-        tech: ["Technology 1", "Technology 2"],
-        features: ["Feature 1", "Feature 2"],
-    },
-    {
-        id: 5,
-        title: "Project Name",
-        category: "Category",
-        description: "Add your 5th project description here.",
-        longDescription: "Add your 5th project detailed description here.",
-        image: "",
-        tech: ["Technology 1", "Technology 2"],
-        features: ["Feature 1", "Feature 2"],
-    },
 ];
 
 export default function Projects() {
@@ -92,23 +72,7 @@ export default function Projects() {
                         />
                     </div>
 
-                    {/* Bottom Left Project */}
-                    <div className="md:col-span-6 overflow-hidden border-t border-foreground/5">
-                        <ProjectCard
-                            project={projects[3]}
-                            onClick={() => setSelectedProject(projects[3])}
-                            className="h-[210px] sm:h-[240px] md:h-[300px]"
-                        />
-                    </div>
 
-                    {/* Bottom Right Project */}
-                    <div className="md:col-span-6 overflow-hidden border-t border-l md:border-t md:border-l-0 border-foreground/5">
-                        <ProjectCard
-                            project={projects[4]}
-                            onClick={() => setSelectedProject(projects[4])}
-                            className="h-[210px] sm:h-[240px] md:h-[300px]"
-                        />
-                    </div>
                 </div>
             </Section>
 

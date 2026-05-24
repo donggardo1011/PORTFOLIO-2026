@@ -45,7 +45,7 @@ export default function CVSection() {
                     <div className="japanese-grid absolute inset-0 opacity-[0.02]" />
                     <div className="relative z-10 h-[70vh] w-full sm:h-auto sm:aspect-[1/1.4]">
                         <iframe
-                            src="/cv/my_CV.pdf#view=FitV"
+                            src="/cv/my_CV.pdf"
                             className="h-full w-full border-0"
                             title="CV Preview"
                             loading="lazy"

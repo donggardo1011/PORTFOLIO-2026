@@ -22,7 +22,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
 
     return (
         <>
-            {/* KAYAOS Branding */}
+            {/* EDGARESTENZO21 Branding */}
             <motion.div
                 initial={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
@@ -36,7 +36,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
                     transition={{ duration: 0.8 }}
                     className="text-[25vw] font-black tracking-tighter uppercase text-foreground/5"
                 >
-                    KAYAOS
+                    EDGARESTENZO21
                 </motion.span>
             </motion.div>
 

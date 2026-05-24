@@ -32,7 +32,7 @@ export default function Contact() {
         // Create mailto link with form data
         const subject = encodeURIComponent(`Portfolio Contact: ${data.name}`);
         const body = encodeURIComponent(`Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`);
-        const mailtoLink = `mailto:erwin.lanzaderas@gmail.com?subject=${subject}&body=${body}`;
+        const mailtoLink = `mailto:edgarestenzo21@gmail.com?subject=${subject}&body=${body}`;
         
         // Open user's email client
         window.location.href = mailtoLink;
@@ -58,7 +58,7 @@ export default function Contact() {
                     <div className="space-y-6">
                         <div className="flex items-center gap-6">
                             <a
-                                href="https://github.com/kaya0s"
+                                href="https://github.com/donggardo1011"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group flex h-12 w-12 items-center justify-center border border-foreground/10 transition-colors hover:border-accent"
@@ -66,7 +66,7 @@ export default function Contact() {
                                 <Github size={20} className="text-foreground/40 transition-colors group-hover:text-accent" />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/erwin-lanzaderas-263812312/"
+                                href="https://www.linkedin.com/in/edgar-estenzo-35b496411/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group flex h-12 w-12 items-center justify-center border border-foreground/10 transition-colors hover:border-accent"
@@ -74,7 +74,7 @@ export default function Contact() {
                                 <Linkedin size={20} className="text-foreground/40 transition-colors group-hover:text-accent" />
                             </a>
                             <a
-                                href="https://www.instagram.com/yaosthegreat/"
+                                href="https://www.instagram.com/sugarituts/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group flex h-12 w-12 items-center justify-center border border-foreground/10 transition-colors hover:border-accent"
@@ -82,7 +82,7 @@ export default function Contact() {
                                 <Instagram size={20} className="text-foreground/40 transition-colors group-hover:text-accent" />
                             </a>
                             <a
-                                href="mailto:erwin.lanzaderas@gmail.com"
+                                href="mailto:edgarestenzo21@gmail.com"
                                 className="group flex h-12 w-12 items-center justify-center border border-foreground/10 transition-colors hover:border-accent"
                             >
                                 <Mail size={20} className="text-foreground/40 transition-colors group-hover:text-accent" />
@@ -112,7 +112,7 @@ export default function Contact() {
                                         </label>
                                         <input
                                             {...register("name")}
-                                            placeholder="Your Name"
+                                            placeholder="Edgar Estenzo"
                                             className="w-full border-b border-foreground/10 bg-transparent py-3 text-sm outline-none transition-colors focus:border-accent"
                                         />
                                         {errors.name && <p className="text-[10px] text-accent">{errors.name.message}</p>}

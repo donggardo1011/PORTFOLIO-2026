@@ -25,12 +25,12 @@ export default function Hero() {
 
             {/* Background Name (Behind Photo) */}
             <motion.div
-                layoutId="kayaos-branding"
+                layoutId="edgarestenzo21-branding"
                 style={{ opacity: useTransform(scrollYProgress, [0, 0.3], [0.03, 0]), scale }}
                 className="absolute inset-0 flex items-center justify-center pointer-events-none z-0"
             >
                 <span className="text-[25vw] font-black tracking-tighter uppercase text-foreground">
-                    KAYAOS
+                    EDGARESTENZO21
                 </span>
             </motion.div>
 
@@ -54,7 +54,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="max-w-md text-sm md:text-base leading-relaxed text-foreground/50 font-light tracking-wide">
-                            I am kayaos, a developer who loves creating anything new and exploring technologies.
+                            I am edgarestenzo21, a developer who loves creating anything new and exploring technologies.
                             Based in BUKIDNON, PHILIPPINES, I specialize in building high-performance systems and modern digital solutions.
                         </p>
 
@@ -76,7 +76,7 @@ export default function Hero() {
                         >
                             <img
                                 src="/images/profile.jpg"
-                                alt="kayaos"
+                                alt="edgarestenzo21"
                                 className="h-full w-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-1000"
                             />
                         </motion.div>

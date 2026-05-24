@@ -31,7 +31,7 @@ export default function CVSection() {
                     </motion.a>
                     <motion.a
                         href="/cv/my_CV.pdf"
-                        download="kayaos_CV.pdf"
+                        download="edgarestenzo21_CV.pdf"
                         whileHover={{ scale: 1.02, backgroundColor: "rgba(var(--foreground), 0.05)" }}
                         whileTap={{ scale: 0.98 }}
                         className="flex items-center justify-center gap-3 border border-foreground/10 py-3 sm:py-4 text-[11px] sm:text-sm font-semibold transition-colors"

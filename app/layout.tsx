@@ -17,8 +17,8 @@ const shipporiMincho = Shippori_Mincho({
 });
 
 export const metadata: Metadata = {
-  title: "kayaos | Portfolio",
-  description: "Modern, scroll-driven portfolio of kayaos. Specialized in Full Stack Development and exploring technologies.",
+  title: "edgarestenzo21 | Portfolio",
+  description: "Modern, scroll-driven portfolio of edgarestenzo21. Specialized in Full Stack Development and exploring technologies.",
 };
 
 export default function RootLayout({

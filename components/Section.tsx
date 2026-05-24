@@ -38,7 +38,7 @@ export default function Section({
 
     // Refined, more minimal animations
     const rotateX = useTransform(smoothProgress, [0, 0.5, 1], [3, 0, -3]);
-    const opacity = useTransform(smoothProgress, [0, 0.2, 0.8, 1], [0, 1, 1, 0]);
+    const opacity = useTransform(smoothProgress, [0, 0.15, 0.85, 1], [0.3, 1, 1, 0.3]);
     const scale = useTransform(smoothProgress, [0, 0.2, 0.8, 1], [0.99, 1, 1, 0.99]);
     const y = useTransform(smoothProgress, [0, 1], [40, -40]);
 

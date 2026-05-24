@@ -11,7 +11,7 @@ const skillCategories = [
         title: "Web Systems",
         icon: <Layers size={20} />,
         description: "Building high-performance, responsive digital ecosystems with a focus on core logic and speed.",
-        skills: ["React / Next.js", "TypeScript", "Tailwind CSS", "RESTful API", "Zustand"],
+        skills: ["React / Next.js", "TypeScript", "Tailwind CSS", "RESTful API"],
     },
     {
         id: "02",
@@ -25,7 +25,7 @@ const skillCategories = [
         title: "Infrastructure",
         icon: <Cpu size={20} />,
         description: "Architecting the invisible backbone that keeps applications scalable and reliable.",
-        skills: ["AWS", "Docker", "PostgreSQL", "Redis", "Microservices"],
+        skills: ["Docker"],
     },
 ];
 

@@ -11,8 +11,7 @@ export default function CVSection() {
                 <div className="max-w-2xl text-center">
                     <p className="text-base sm:text-lg leading-relaxed text-foreground/70">
                         A comprehensive record of my professional journey, including education,
-                        key roles, and notable contributions to the field of software engineering
-                        and artificial intelligence.
+                        key roles, and significant projects that have shaped my career as a Full Stack Developer.
                     </p>
                 </div>
 
